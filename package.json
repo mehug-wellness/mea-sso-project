@@ -1,0 +1,14 @@
+{
+  "name": "mea-sso-project",
+  "version": "1.0.0",
+  "description": "A Node.js project for MEA SSO",
+  "main": "mea.js",
+  "scripts": {
+    "start": "node mea.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.5.0",
+    "qs": "^6.11.0"
+  }
+}
