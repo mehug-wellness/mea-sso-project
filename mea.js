@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 35000;
 // SSO Configuration
 const CLIENT_ID = 'YjQXsBGqmNcPl0RqnNNVf2L0wblQa79u'; // already replace with actual Client ID
 const CLIENT_SECRET = '5BLpDIAkttwNCy4KubzJp1h8QYMdtvOnFM1FG08ACK8qa1KdvSVWJqiRO9fQPIH7'; // already replace with actual Client Secret
-const REDIRECT_URI = 'http://localhost:3000/callback'; // Replace with your registered Redirect URI
+const REDIRECT_URI = 'https://mea-sso-project.onrender.com'; // Replace with your registered Redirect URI
 const AUTH_URL = 'https://login.mea.or.th/oauth2/authorize'; // Production
 const TOKEN_URL = 'https://login.mea.or.th/oauth2/token'; // Production
 const PROFILE_URL = 'https://login.mea.or.th/profile'; // Production
