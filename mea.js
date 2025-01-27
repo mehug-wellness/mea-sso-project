@@ -12,7 +12,7 @@ const REDIRECT_URI = 'http://localhost:3000/callback'; // Replace with your regi
 const AUTH_URL = 'https://login.mea.or.th/oauth2/authorize'; // Production
 const TOKEN_URL = 'https://login.mea.or.th/oauth2/token'; // Production
 const PROFILE_URL = 'https://login.mea.or.th/profile'; // Production
-const JOTFORM_URL = 'https://form.jotform.com/243514830789465'; // Jotform URL
+const JOTFORM_URL = 'https://www.jotform.com/form/243514830789465'; // Jotform URL
 
 // Step 1: Redirect User to SSO Login
 app.get('/login', (req, res) => {
